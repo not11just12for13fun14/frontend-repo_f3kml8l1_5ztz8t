@@ -2,20 +2,20 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import Projects from './components/Projects';
+import Showcase from './components/Showcase';
 import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="min-h-screen w-full bg-slate-950 font-inter">
+    <div className="min-h-screen w-full bg-[#050914] font-inter">
       <Navbar />
       <main>
         <Hero />
         <About />
-        <Projects />
+        <Showcase />
         <Contact />
       </main>
-      <footer className="border-t border-white/10 bg-slate-950 py-10 text-center text-xs text-slate-400">
+      <footer className="border-t border-white/10 bg-[#050914] py-10 text-center text-xs text-slate-400">
         © {new Date().getFullYear()} Doni Wahyudi — Crafted with code, play, and story.
       </footer>
     </div>
