@@ -21,19 +21,19 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 backdrop-blur">
             <Rocket className="h-4 w-4 text-fuchsia-400" />
             <span className="text-xs font-medium tracking-wide text-fuchsia-100">
-              Futuristic • Interactive • Cyber • Polished
+              Futuristic • Interactive • Minimal 3D • Polished
             </span>
           </div>
 
           <h1 className="text-balance font-extrabold tracking-tight">
             <span className="block text-4xl leading-tight md:text-6xl">Doni Wahyudi</span>
             <span className="mt-2 block bg-gradient-to-r from-fuchsia-400 via-sky-300 to-emerald-300 bg-clip-text text-2xl text-transparent md:text-4xl">
-              AI Software Engineer & Game Developer
+              Software Engineer & Game Developer
             </span>
           </h1>
 
           <p className="max-w-2xl text-pretty text-slate-300 md:text-lg">
-            Building intelligent systems and playful worlds — with smooth motion, clean design, and immersive 3D moments.
+            Crafting intelligent software and playful experiences with a clean, futuristic aesthetic and subtle 3D touches.
           </p>
 
           <div className="mt-6 flex items-center gap-3">
@@ -63,11 +63,11 @@ const Hero = () => {
             {/* Subtle edge gradients that do not block interaction */}
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-[#0a0f1f]/60 via-transparent to-[#0a0f1f]/40" />
             <Spline
-              scene="https://prod.spline.design/EF7JOSsHLk16Tlw9/scene.splinecode"
+              scene="https://prod.spline.design/FduaNp3csZktbOi3/scene.splinecode"
               style={{ width: '100%', height: '100%' }}
             />
           </div>
-          <p className="mt-3 text-center text-xs text-slate-400">Subtle 3D — lightweight and focused</p>
+          <p className="mt-3 text-center text-xs text-slate-400">Minimal 3D — lightweight and focused</p>
         </motion.div>
       </div>
     </section>
